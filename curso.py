@@ -32,3 +32,22 @@ print(20/3)
 
 #Resto da divisão:
 print(10%3)
+print("\n")
+print("Hello Word"*3)
+for i in range(1,5,2):
+    print(i)
+
+list_ages = [2,5,10,9,5,10,22,1]
+set_ages = set(list_ages)
+print(set_ages)
+print("\n ")
+# ...existing code...
+class Fish:
+    pass
+
+class ClownFish(Fish): 
+    pass 
+
+fish = ClownFish() 
+print(isinstance(fish, Fish))
+# ...existing code...
